@@ -1,0 +1,26 @@
+
+
+<%# This is a form in HTML that is called from a
+    Ruby program using erb /%>
+<%# It produces a form on the screen asking for input
+    into 2 text fields and providing a submit button /%>
+
+
+
+<%# This is a form in HTML that is called from a
+    Ruby program using erb /%>
+<%# It produces a form on the screen asking for input
+    into 2 text fields and providing a submit button /%>
+
+<form action="/names" method="post">
+  <div>
+    <p> 'The Happiest of all Birthday Forms'</p>
+    <label for="user_name"><br><b>Whats your name?</b></br></label>
+    <input type="text" placeholder="name" name="user_name">
+    <label for="date"><br><b> When is your birthday?</br></b>
+    <input type="text" placeholder="day" day="day">
+    <input type="text" placeholder="month" month="month">
+    <label for="button"><br><b> Press Enter When Ready</br></b>
+    <button type="submit">Go</button>
+  </div>
+</form>
