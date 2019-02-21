@@ -14,12 +14,26 @@
 
 <form action="/names" method="post">
   <div>
-    <p> 'The Happiest of all Birthday Forms'</p>
+    <big><p><b>The Happiest of all Birthday Forms</p></b></big>
     <label for="user_name"><br><b>Whats your name?</b></br></label>
     <input type="text" placeholder="name" name="user_name">
     <label for="date"><br><b> When is your birthday?</br></b>
     <input type="text" placeholder="day" day="day">
-    <input type="text" placeholder="month" month="month">
+
+    <select name = "month">
+      <option value = "January" selected>January</option>
+      <option value = "February" selected>February</option>
+      <option value = "March" selected>March</option>
+      <option value = "April" selected>April</option>
+      <option value = "May" selected>May</option>
+      <option value = "June" selected>June</option>
+      <option value = "July" selected>July</option>
+      <option value = "August" selected>August</option>
+      <option value = "September" selected>September</option>
+      <option value = "October" selected>October</option>
+      <option value = "November" selected>November</option>
+      <option value = "December" selected>December</option>
+          </select>
     <label for="button"><br><b> Press Enter When Ready</br></b>
     <button type="submit">Go</button>
   </div>
